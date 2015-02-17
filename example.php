@@ -2,7 +2,7 @@
 include_once __DIR__.'/FlickrApi.php';
 
 function getPhotos($tags) {
-    $flickr = new FlickrApi('d5dfa5fa44d8d7b443a8847259c22746');
+    $flickr = new FlickrApi('PUT YOU API KEY HERE');
 
     $params = array(
         'method'	=> 'flickr.photos.search',
